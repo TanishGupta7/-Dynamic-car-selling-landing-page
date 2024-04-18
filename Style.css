@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+}
+.top_left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: aqua;
+}
+.top_right{
+    position: absolute;
+    top: 8px;
+    right: 30px;
+}
+ul {
+    list-style-type: none;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  li a:hover{
+      color: azure;
+      background-color: rgb(129, 26, 8);
+      text-decoration: underline;
+      transition: all ease 1s;
+  }
+  .center{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 1px solid red;
+    opacity: 0.4;
+    padding: 0px 15px 0px 15px;
+    border-radius: 22px 0px 0px 50px;
+  }
+  #centerr{
+      opacity: 1;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    font-style: oblique;
+    font-size: 55px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .aboutus{
+    border-top: 4px solid black;
+    width: inherit;
+    height:350px;
+    background-color: azure;
+  }
+  .heading{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+  }
+  #item1{
+    margin-top: 45px;
+    margin-left: 60px;
+    width: 30%;
+    height: 200px;
+    background-color: gray;
+    float: left;
+  }
+  #item2{
+    margin-top: 45px;
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: gray;
+  }
+  #item3{
+    margin-top: 45px;
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: gray;
+  }
+  .head{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
+  }
+  .text{
+    padding: 15px;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    font-style: initial;
+    text-indent: 24px;
+    text-align: left;
+  }
+  .Why_Choose_US{
+    border-top: 2px solid black;
+    width: inherit;
+    height:450px;
+    background-color: beige;
+  }
+  .wcuheading{
+    /* margin-top: 100px; */
+    margin: auto;
+    width: 22%;
+    height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 20px 10px;
+  }
+  .item01{
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+    height: 200px;
+  }
+  .item02{
+    margin-top: 45px;
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+    height: 200px;
+  }
+  .item03{
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+    height: 200px;
+  }
+  .symbol{
+   text-align: center;
+   font-size: 100px;
+  }
+  .topname{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
+  }
+  .des{
+    padding: 15px;
+    font-weight:lighter;
+    font-family:'Courier New', Courier, monospace;
+    font-style: initial;
+    text-align: left;
+    text-align: center;
+  }
+  .Testimonial{
+   border-top: 2px solid black;
+  width: inherit;
+  height:650px;
+  background-color: blanchedalmond;
+   }
+  .theading{
+    /* margin-top: 10px; */
+    margin: auto;
+    width: 16%;
+    height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 20px 10px;
+    margin-bottom: 55px;
+
+  }
+  .photo{
+   width:10% ;
+   height: 160px;
+   margin: auto;
+   background-image: url(Photos/person3.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 50%;
+   box-shadow: 5px 5px 5px black;
+  }
+  .name{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .ttext{
+    width:50%;
+    height: 250px;
+    background-color: black;
+    margin: auto;
+    color: aliceblue;
+    padding:40px;
+  }
+  .contactus{
+    border-top: 2px solid black;
+    width: inherit;
+    height:750px;
+    background-color: aliceblue; 
+  }
+  .cheading{
+    margin: auto;
+    width: 16%;
+    height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 20px 10px;
+    margin-bottom: 55px; 
+  }
+  .form{
+    width: 40%;
+    height: 570px;
+    background-color:darkgrey;
+    margin: 30px;
+    padding: 30px;
+    float: left;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label{
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+      }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    /* resize: none; */
+  }
+  .googlemap{
+    width: 50%;
+    height: 570px;
+    padding-top: 30px;
+    padding-left: 190px;
+    float: left;
+  }
+  footer{
+    width: inherit;
+    height: 50px;
+    background-color:lightblue;
+  }
+  .foot{
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 700;
+    text-align: center;
+    
+   }
